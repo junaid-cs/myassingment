@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2023" data-name="Rectangle 2023" width="21.191" height="21.928" fill="#2c2c2c"/>
+    </clipPath>
+  </defs>
+  <g id="Group_7388" data-name="Group 7388" transform="translate(-1269 -24)">
+    <rect id="Rectangle_2024" data-name="Rectangle 2024" width="24" height="24" transform="translate(1269 24)" fill="none"/>
+    <g id="Group_6304" data-name="Group 6304" transform="translate(1270 25)">
+      <g id="Group_6303" data-name="Group 6303" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Path_19278" data-name="Path 19278" d="M11.769,11.128A5.564,5.564,0,1,0,6.2,5.564a5.57,5.57,0,0,0,5.564,5.564m0-9.358A3.795,3.795,0,1,1,7.974,5.564a3.8,3.8,0,0,1,3.795-3.795" transform="translate(-0.716 0)" fill="#2c2c2c"/>
+        <path id="Path_19279" data-name="Path 19279" d="M0,21.2v2.349H11.324V21.779H1.769V21.2a5.4,5.4,0,0,1,5.4-5.4h4.159V14.034H7.165A7.173,7.173,0,0,0,0,21.2" transform="translate(0 -1.62)" fill="#2c2c2c"/>
+        <rect id="Rectangle_2020" data-name="Rectangle 2020" width="4.096" height="1.769" transform="translate(13.748 12.447)" fill="#2c2c2c"/>
+        <rect id="Rectangle_2021" data-name="Rectangle 2021" width="6.55" height="1.769" transform="translate(13.748 16.32)" fill="#2c2c2c"/>
+        <rect id="Rectangle_2022" data-name="Rectangle 2022" width="7.443" height="1.769" transform="translate(13.748 20.159)" fill="#2c2c2c"/>
+      </g>
+    </g>
+  </g>
+</svg>
