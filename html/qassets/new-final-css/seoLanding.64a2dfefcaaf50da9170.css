@@ -10981,6 +10981,9 @@ a.show-fileswrapper:hover {
   text-overflow: ellipsis;
   text-align: center;
 }
+.how_it_works_wrap img{
+  filter: grayscale(100%) sepia(109%) hue-rotate(48deg) saturate(301%);
+}
 @media (max-width: 767px) {
   .experts_wrap
     .main-wrap
@@ -14403,7 +14406,11 @@ body {
   }
 }
 .explore-excel-wrap .explore-excel-main .left-listing {
-  width: 671px;
+  width: 80%;
+  margin: auto;
+}
+.explore-excel-wrap .explore-excel-main .left-listing .head ,.left-listing p{
+  text-align: center;
 }
 @media (max-width: 1199px) {
   .explore-excel-wrap .explore-excel-main .left-listing {
@@ -14439,6 +14446,7 @@ body {
 }
 .explore-excel-wrap .explore-excel-main .left-listing .service-listing {
   display: flex;
+  margin-left: 78px;
   justify-content: space-between;
 }
 .explore-excel-wrap .explore-excel-main .left-listing .service-listing ul {
