@@ -13104,7 +13104,7 @@ li.dropdown__select-option #ampm .btn.active {
     -webkit-column-gap: 30px;
     -moz-column-gap: 30px;
     column-gap: 30px;
-    justify-content: space-around;
+    justify-content: start;
   }
 }
 @media only screen and (max-width: 1199px) and (min-width: 769px) {
@@ -13246,7 +13246,7 @@ li.dropdown__select-option #ampm .btn.active {
     -webkit-column-gap: 0;
     -moz-column-gap: 0;
     column-gap: 0;
-    justify-content: space-around;
+    justify-content: start;
   }
 }
 input::-webkit-inner-spin-button,
@@ -13917,9 +13917,13 @@ body {
 }
 @media (max-width: 767px) {
   .changed-review-wrap a {
-    width: 102px;
+    width: 100%;
     border: 1px solid #c8c8c8;
     border-radius: 4px;
+  }
+  .changed-review-wrap a img{
+    width: 42px !important;
+    
   }
 }
 .changed-review-wrap a.active,
