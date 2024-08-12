@@ -8972,6 +8972,11 @@ button.\--Plus--counter:hover {
   .textareaOuter {
   max-width: 391px;
 }
+.heading ,.hhd2,.head{
+  background: -webkit-linear-gradient(25deg, #4A90E2 26%, #1146a6 84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .__FormStickyWrapper .phoneFieldArea select {
   border-right: none !important;
   -webkit-appearance: none;
@@ -9046,7 +9051,7 @@ button.\--Minus_button.disabled img {
   width: auto;
 }
 .container.navbar.navbar-expand-lg.navbar-light.__TopLogoSection img {
-  max-width: 300px;
+  max-width: 50px;
   width: 100%;
 }
 .container.navbar.navbar-expand-lg.navbar-light.__TopLogoSection .container {
@@ -10981,9 +10986,7 @@ a.show-fileswrapper:hover {
   text-overflow: ellipsis;
   text-align: center;
 }
-.how_it_works_wrap img{
-  filter: grayscale(100%) sepia(109%) hue-rotate(48deg) saturate(301%);
-}
+
 @media (max-width: 767px) {
   .experts_wrap
     .main-wrap
@@ -11467,7 +11470,7 @@ a.show-fileswrapper:hover {
   position: absolute;
   width: 60px;
   height: 60px;
-  background-color: #2c2c2c;
+  background-color: #7ED321;
   border-radius: 60px;
   display: flex;
   align-items: center;
@@ -11491,7 +11494,7 @@ a.show-fileswrapper:hover {
   margin: 0;
 }
 .writing_tools_wrap .tools_wrap .tool_bx .text-button {
-  color: #0c5ff2;
+  color: #4A90E2;
   font-size: 1rem;
   text-decoration: none;
   font-weight: 600;
@@ -11924,12 +11927,12 @@ footer {
 }
 @media (min-width: 1199px) {
   footer {
-    margin-top: 100px;
+    padding-top: 38px;
   }
 }
 @media (max-width: 1199px) {
   footer {
-    margin-top: 145px;
+    padding-top: 38px;
   }
 }
 footer .singleBar {
@@ -12167,7 +12170,7 @@ footer .subs_wrap .subs_bx .pataka {
 }
 footer .footer-menu-wrap {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   -webkit-column-gap: 56px;
   -moz-column-gap: 56px;
   column-gap: 56px;
@@ -12199,9 +12202,9 @@ footer .footer-menu-wrap .left-menu-set {
   }
 }
 footer .footer-menu-wrap .list-box .list-heading {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
-  color: #2c2c2c;
+  color: #4A90E2;
   padding-bottom: 15px;
 }
 @media (max-width: 1199px) {
@@ -12259,7 +12262,20 @@ footer .footer-menu-wrap .list-box ul.page-list li a {
 }
 footer .footer-menu-wrap .list-box ul.page-list li a:hover {
   text-decoration: none;
-  color: #4A90E2;
+  color: #68c00a;
+}
+.footer-log{
+  width: 200px;
+}
+.footer-log h3{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.footer-log p{
+  color: #8a8a8a;
+  font-size: 12px;
+  text-shadow: none;
+  text-transform: capitalize;
 }
 ul.links-list {
   list-style-type: none;
@@ -12344,6 +12360,7 @@ li.dropdown.country--list.__Country_Name a.dropdown-toggle:after {
   ul#LetUsHelpListFooter {
     display: block !important;
     padding: 0;
+    height: 230px;
   }
 }
 @media (min-width: 992px) {
